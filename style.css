@@ -1,0 +1,103 @@
+body {
+  background: #353535;
+  color: #5b768d;
+  margin: 0;
+  padding: 0;
+}
+input {
+  background-color: #353535;
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+  height: auto;
+  width: 100%;
+}
+input:focus {
+  background-color: #353535;
+  border-radius: 12px;
+  outline: 0;
+}
+li {
+  display: inline;
+  font-size: 15px;
+}
+ul {
+  background-color: #484646;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1cm;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 75px;
+  margin-bottom: -0.05cm;
+  margin-top: 0cm;
+}
+.center {
+  text-align: center;
+}
+.alignright {
+  float: right;
+}
+li a:hover {
+  color: #ea4335;
+  text-decoration: none;
+}
+li a {
+  margin-right: 20px;
+  text-decoration: none;
+}
+li a:link {
+  color: #34a853;
+  text-decoration: none;
+}
+li a:visited {
+  color: #5b768d;
+  text-decoration: none;
+}
+.magicbutton {
+  text-decoration: none;
+  font: menu;
+  display: inline-block;
+  padding: 2px 8px;
+  background: ButtonFace;
+  color: ButtonText;
+  border-style: solid;
+  border-width: 2px;
+  border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+  background-color: #353535;
+  border-color: silver;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.searchborder {
+  border: 1px solid silver;
+  border-radius: 24px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 544px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  margin-top: 25px;
+}
+.smallicons {
+  padding-right: 10px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: silver;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 17px;
+}
